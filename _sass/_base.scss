@@ -1,6 +1,7 @@
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
 // Typography
 
@@ -16,6 +17,7 @@ div,
 li,
 span,
 strong {
+  font-family: 'Quicksand', sans-serif;
   color: var(--global-text-color);
 }
 

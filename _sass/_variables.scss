@@ -5,6 +5,17 @@
 
 @use "sass:color";
 
+
+// Colors
+$primary-color: #E08B87 !default;           // Deeper blush pink for better contrast
+$secondary-color: #FFFFFF !default;         // Pure white for backgrounds
+$accent-color: #FF6B6B !default;            // Darker coral-pink for highlights
+$text-color: #222222 !default;              // Very dark grey for improved readability (better contrast with background)
+$link-color: #8B5E4A !default;              // Darker dusty rose for links (more visible)
+$button-bg-color: #E08B87 !default;         // Deeper blush pink for buttons
+$button-hover-color: #FF6B6B !default;      // Darker coral hover effect
+$background-gradient: linear-gradient(to bottom, #FFF5E4, #E08B87) !default; // Gradient for body background with better contrast
+
 // Colors
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
