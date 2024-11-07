@@ -51,6 +51,16 @@ table.table a {
   }
 }
 
+.table-dark th{
+  color: var(--global-text-color);
+  font-weight: bold;
+}
+
+.table-dark td{
+  color: var(--global-text-color);
+  font-weight: medium;
+}
+
 .table-dark {
   background-color: transparent;
   &.table-bordered {
