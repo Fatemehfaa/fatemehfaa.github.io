@@ -8,7 +8,7 @@
  * Values: 'red', 'pink', 'fuchsia', 'purple', 'violet', 'indigo', 'blue', 'azure', 'cyan',
  * 'jade', 'green', 'lime', 'yellow', 'amber', 'pumpkin', 'orange', 'sand', 'grey', 'zinc', 'slate'
  *------------------------------------------------------------------------**/
-$jane-theme-color: 'azure';
+$jane-theme-color: 'zinc';
 
 /**------------------------------------------------------------------------
  *                            Article Max Width
@@ -18,19 +18,21 @@ $article-max-width: 40em;
 /**------------------------------------------------------------------------
  *                            Site Header Height
  *------------------------------------------------------------------------**/
-$desktop-header-height: 4rem;
+$desktop-header-height: 5rem;
 $mobile-header-height: 3rem;
 
 /**------------------------------------------------------------------------
  *                            Font Settings
  *------------------------------------------------------------------------**/
 
+ @import url('https://fonts.googleapis.com/css2?family=Belleza&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 // example import from google fonts
-$logo-font-family: 'Comic Sans MS', -apple-system, 'Open Sans', 'Segoe UI', 'Helvetica', Arial, sans-serif;
+$logo-font-family: "Host Grotesk", sans-serif;
 
-$title-font-family: -apple-system, 'Open Sans', 'Segoe UI', 'Helvetica', Arial, sans-serif;
+$title-font-family: "Host Grotesk", sans-serif;
 
-$global-font-family: -apple-system,'Open Sans', 'Segoe UI', 'Helvetica', Arial, sans-serif;
+$global-font-family: "Host Grotesk", sans-serif;
 $global-font-size: 18px;
 $global-mobile-font-size: 15px;
 

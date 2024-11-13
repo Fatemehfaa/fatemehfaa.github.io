@@ -2,8 +2,8 @@
 # If you want to see the full configuration, please check `full-config.toml` .
 # And see https://gohugo.io/getting-started/configuration/ .
 
-baseURL = "http://localhost:1313/"
-title = "Jane - A super concise theme for Hugo"
+baseURL = "https://fatemehfathalian.net/"
+title = "Fatemeh Fathalian"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -28,7 +28,7 @@ defaultContentLanguage = "en"           # Default language to use
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "This is Home"
+  name = "Home"
   weight = 10
   identifier = "home"
   pageref = "/"
@@ -42,25 +42,20 @@ defaultContentLanguage = "en"           # Default language to use
   weight = 30
   identifier = "tags"
   pageref = "/tags/"
-[[menu.main]]
-  name = "external-link"
-  weight = 50
-  pageref = "https://gohugo.io"
-
 
 [params]
-  since = "2017"            # Site creation time          # 站点建立时间
+  since = "2024"            # Site creation time          # 站点建立时间
   homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
 
-  author.name = "Jane"      # essential                     # 必需
-  author.email = "me@example.com" # optional, for RSS             # 可选
+  author.name = "Fatemeh Fathalian"      # essential                     # 必需
+  author.email = "fatemeh.fathalian12@gmail.com" # optional, for RSS             # 可选
   author.url = "/about"        # optional                      # 可选
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Jane"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["Hugo", "theme","jane"]
-  description = "Hugo theme jane example site."
+  logoTitle = "Fatemeh Fathalian"        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["personal", "portfolio","blog"]
+  description = "fatemeh personal website"
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
@@ -77,24 +72,6 @@ defaultContentLanguage = "en"           # Default language to use
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
-    b-stack-overflow = "http://localhost:1313"
-    c-twitter = "http://localhost:1313"
-    d-facebook = "http://localhost:1313"
-    e-linkedin = "http://localhost:1313"
-    f-google = "http://localhost:1313"
-    g-github = "http://localhost:1313"
-    h-weibo = "http://localhost:1313"
-    i-zhihu = "http://localhost:1313"
-    j-douban = "http://localhost:1313"
-    k-pocket = "http://localhost:1313"
-    l-tumblr = "http://localhost:1313"
-    m-instagram = "http://localhost:1313"
-    n-gitlab = "http://localhost:1313"
-    o-goodreads = "http://localhost:1313"
-    p-coding = "http://localhost:1313"
-    q-bilibili = "http://localhost:1313"
-    r-codeforces = "http://localhost:1313"
-    s-mastodon = "http://localhost:1313"
-    t-youtube = "http://localhost:1313"
-    u-twitch = "http://localhost:1313"
+    a-email = "mailto:fatemeh.fathalian12@gmail.com"
+    e-linkedin = "https://www.linkedin.com/in/fatemeh-fathalian-119511304/"
+    g-github = "https://github.com/Fatemehfaa"
