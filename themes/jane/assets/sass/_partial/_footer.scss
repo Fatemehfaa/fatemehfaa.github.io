@@ -1,0 +1,13 @@
+// ==============================
+// Post footer
+// =============================
+
+.site-footer {
+  margin-top: 3rem;
+  background: var(--pico-primary-focus);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+
+  @import "_footer/social";
+  @import "_footer/copyright";
+}
